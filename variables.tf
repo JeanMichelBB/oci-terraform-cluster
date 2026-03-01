@@ -4,11 +4,11 @@ variable "tenancy_ocid" {
   nullable    = false
 }
 
-variable "region" {
-  description = "Region for resources"
-  type        = string
-  nullable    = false
-}
+# variable "region" {
+#   description = "Region for resources"
+#   type        = string
+#   nullable    = false
+# }
 
 variable "name" {
   description = "Display name for resources"
